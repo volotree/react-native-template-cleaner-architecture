@@ -1,12 +1,12 @@
-# :honeybee: React Native Template Clean Architecture
+# :honeybee: React Native Template Cleaner Architecture
 
-This is a template for creating React Native projects based on Clean Architecture with preconfigured libraries for design, functionality, and navigation.
+This is a template for creating React Native projects based on Cleaner Architecture with preconfigured libraries for design, functionality, and navigation.
 
 ## :star: Features:
 
 -   Pre-configured ProximaNova font
 -   Pre-configured libraries 'React Native Vector Icons' and 'Eva Icons' for icons
--   Pre-configured folder structure for the Clean Architecture
+-   Pre-configured folder structure for the Cleaner Architecture
 -   Preconfigured 'React Native Asset' library to automatically link fonts
 -   Navigation using [react-navigation](https://reactnavigation.org/) (v6)
 -   State management using [redux](https://es.redux.js.org/)
@@ -32,10 +32,10 @@ npm uninstall -g react-native react-native-cli
 
 ## :arrow_forward: Usage
 
-Generate a React Native (0.70.6) app using the **ahc2806/react-native-template-clean-architecture** template:
+Generate a React Native (0.70.6) app using the **volotree/react-native-template-cleaner-architecture** template:
 
 ```bash
-  npx react-native init ProjectName --template react-native-template-clean-architecture
+  npx react-native init ProjectName --template react-native-template-cleaner-architecture
   cd ProjectName
 ```
 
@@ -48,7 +48,7 @@ The template will automatically install the `npm` dependencies and the `pods` (i
 #### e.g. `react-native@0.70.x`
 
 ```sh
-npx react-native init ProjectName --template react-native-template-clean-architecture@0.2.4
+npx react-native init ProjectName --template react-native-template-cleaner-architecture@0.2.4
 ```
 
 See the below table to find out which version of the template to use.
