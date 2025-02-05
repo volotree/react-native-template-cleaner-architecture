@@ -1,0 +1,77 @@
+{
+  "name": "react-native-template-clean-architecture",
+  "version": "0.5.0",
+  "description": "This is a template for creating React Native projects based on Clean Architecture",
+  "scripts": {
+    "test": "exit 0",
+    "release:major": "npx release-it -- major",
+    "release:minor": "npx release-it -- minor",
+    "release:patch": "npx release-it -- patch"
+  },
+  "files": [
+    "template",
+    "template.config.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahc2806/react-native-template-clean-architecture.git"
+  },
+  "keywords": [
+    "javascript",
+    "react",
+    "native",
+    "react-native",
+    "redux",
+    "react-navigation",
+    "starter",
+    "template",
+    "clean",
+    "architecture",
+    "clean-architecture",
+    "kitten",
+    "ui-kit",
+    "ui-kitten",
+    "design-system",
+    "boilerplate"
+  ],
+  "author": "Alonso Hernandez Cortez <alonsohernandezcortez@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahc2806/react-native-template-clean-architecture/issues"
+  },
+  "release-it": {
+    "git": {
+      "requireBranch": "main",
+      "commitMessage": "chore: Release v${version}"
+    },
+    "github": {
+      "release": true
+    },
+    "npm": {
+      "publish": false
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "infile": "CHANGELOG.md",
+        "preset": {
+          "name": "conventionalcommits",
+          "types": [
+            {
+              "type": "feat",
+              "section": "Features"
+            },
+            {
+              "type": "fix",
+              "section": "Bug Fixes"
+            },
+            {}
+          ]
+        }
+      }
+    }
+  },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^5.1.1",
+    "release-it": "^15.6.0"
+  }
+}
